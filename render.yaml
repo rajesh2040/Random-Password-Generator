@@ -1,1 +1,9 @@
-"services:" 
+ services:
+  - type: web
+    name: my-service-name
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    repo: https://github.com/rajesh2040/Random-Password-Generator
+    branch: main
+
